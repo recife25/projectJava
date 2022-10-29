@@ -1,0 +1,25 @@
+str to lowercase 
+how to compare  / arrays 
+palidrome - if str reverse of that str is the same as original str 
+“Niagara o roar again”
+“niagara o roar agaiN”
+
+Prove that the string “Niagara o roar again” is a palindrome
+consider str - "Niagara o roar again"
+//consider str - change to lowercase
+consider str - consider the length of str
+consider str - method to reverse str 
+travers str - use the for loop (strLength -1)
+if str lowercase == reverse str lowercase
+system out println - is palindrome
+else 
+system out println - is not palidrome 
+
+char vs string 
+java string class doc - review method has for class - string into array 
+array of chars 
+index chars vs string 
+char compare ignore case - lowercase uppercase -
+
+
+[optional] Prove that the string “Niagara o roar again” is a palindrome

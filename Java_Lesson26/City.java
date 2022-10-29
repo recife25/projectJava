@@ -1,11 +1,14 @@
 public class City {
-    public void hail() {
-        System.out.println("Hello from my City");
+    private String name;//field attribute 
+
+    public City(String name) {
+        this.name = name;
+        //parametized constructor
     }
 
     public void displayName() {
-        System.out.println("The City Name is:");
+        System.out.println("The city name is: " + name);
+        //method displayName
     }
     
 }
-j

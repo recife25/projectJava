@@ -7,18 +7,15 @@
 public class main {
 
     public static void main(String args[]){
-        City myhail = new City();
-        myhail.hail();
+     
 
-        County myCounty = new County();
-        myCounty.hail();//overloading
-        myCounty.hail("hello county");//overriding 
+        City newCity = new City("New York");
+        newCity.displayName();
 
-        City myCity = new City();
-        myCity.displayName();
+        County newCounty = new County("Queens");
+        newCounty.displayName();
 
-        County myCountyN = new County();
-        myCountyN.displayName();
+
     
 
     }
